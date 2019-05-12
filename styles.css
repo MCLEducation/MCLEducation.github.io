@@ -101,7 +101,7 @@ section div{
 }
 
 /* RESPONSIVE RULES */
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1050px){
     section.features{
       
         display: block;
