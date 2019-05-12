@@ -7,7 +7,7 @@ body{
 header{
     background-color: white;
     background-image: url("images/backgroundImage.jpg");
-    background-size: 30%;
+    background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
     padding: 20px;
@@ -42,6 +42,25 @@ a{
 a:hover{
     text-decoration: underline;
 }
+/* RESPONSIVE RULES */
+@media screen and (max-width: 515px){
+    li{
+        display: inline-block;
+        background: white;
+        border: 1px solid gray;
+        border-radius: 5px;
+        box-shadow: gray 0 0 10px;
+        margin-right: 10px;
+        padding: 5px;
+    }
+
+    header{
+        background-size: 80%;
+    }
+}
+
+
+/* SECTION */
 
 section{
     background: white;
@@ -78,6 +97,18 @@ section div{
     padding:  10px ;
     text-align: center;
     margin: auto;
+    
+}
+
+/* RESPONSIVE RULES */
+@media screen and (max-width: 715px){
+    section.features{
+      
+        display: block;
+        /* flex-direction: row; */
+    }
+      
+
     
 }
 
